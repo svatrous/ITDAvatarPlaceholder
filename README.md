@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/ITDAvatarPlaceholder.svg?style=flat)](http://cocoapods.org/pods/ITDAvatarPlaceholder)
 [![Platform](https://img.shields.io/cocoapods/p/ITDAvatarPlaceholder.svg?style=flat)](http://cocoapods.org/pods/ITDAvatarPlaceholder)
 
+![itdavatarplaceholder](https://cloud.githubusercontent.com/assets/5755524/14276343/fd81935c-fb26-11e5-8e6e-5144092066af.jpg =321x)
+
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -23,7 +23,6 @@ A color of the background is suitable for the flat UI and computed from a hash o
     'ITDAvatarPlaceholder' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'ChameleonFramework/Swift'
 end
