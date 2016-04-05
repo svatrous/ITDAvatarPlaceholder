@@ -5,6 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/ITDAvatarPlaceholder.svg?style=flat)](http://cocoapods.org/pods/ITDAvatarPlaceholder)
 [![Platform](https://img.shields.io/cocoapods/p/ITDAvatarPlaceholder.svg?style=flat)](http://cocoapods.org/pods/ITDAvatarPlaceholder)
 
+Generates the avatar placeholder image with first letters of the provided full user name in the center.
+This library uses [Chameleon](https://github.com/ViccAlexander/Chameleon) (Flat Color Framework for iOS) for
+a background color generation. Moreover a color of the background is computed from a hash of the provided 
+user name.
+
 <img src="https://cloud.githubusercontent.com/assets/5755524/14276343/fd81935c-fb26-11e5-8e6e-5144092066af.jpg" width="321px" alt="screenshot"/>
 
 
@@ -12,7 +17,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+To create the 256x256 placeholder image:
+
+```swift
+let avatarPlaceholderImage = UIImage.createAvatarPlaceholder(userFullName: "Erlich Bachman", placeholderSize: CGSizeMake(256, 256))
+```
+
 
 ## Installation
 
