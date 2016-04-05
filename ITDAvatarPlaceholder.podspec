@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = "ITDAvatarPlaceholder"
   s.version          = "0.1.0"
-  s.summary          = "Library to generate the user avatar placeholder image."
+  s.summary          = "Library to generate an user avatar placeholder image."
 
   s.description      = <<-DESC
-Generates the avatar placeholder image with first letters of the provided full user name in the center.
+Generates an avatar placeholder image with first letters of the provided full user name in the center.
 A color of the background is suitable for the flat UI and computed from a hash of the provided name.
                        DESC
 

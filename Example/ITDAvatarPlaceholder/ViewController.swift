@@ -10,11 +10,14 @@ import UIKit
 import ITDAvatarPlaceholder
 
 class ViewController: UIViewController {
-    static let AvatarPlaceholderImageSize = CGSize(width: 512, height: 512)
+    static let AvatarPlaceholderImageSize = CGSize(width: 256, height: 256)
     
     @IBOutlet weak var richardHendricks: UIImageView!
     @IBOutlet weak var erlichBachman: UIImageView!
     @IBOutlet weak var jaredDuhn: UIImageView!
+    @IBOutlet weak var dineshChugtai: UIImageView!
+    @IBOutlet weak var bertramGilfoyle: UIImageView!
+    @IBOutlet weak var carlaWalton: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,5 +31,13 @@ class ViewController: UIViewController {
         jaredDuhn.image = UIImage.createAvatarPlaceholder(
             userFullName: "Jared (Donald) Duhn", placeholderSize: ViewController.AvatarPlaceholderImageSize)
         
+        dineshChugtai.image = UIImage.createAvatarPlaceholder(
+            userFullName: "Dinesh Chugtai", placeholderSize: ViewController.AvatarPlaceholderImageSize)
+        
+        bertramGilfoyle.image = UIImage.createAvatarPlaceholder(
+            userFullName: "Bertram Gilfoyle", placeholderSize: ViewController.AvatarPlaceholderImageSize)
+        
+        carlaWalton.image = UIImage.createAvatarPlaceholder(
+            userFullName: "Carla Walton", placeholderSize: ViewController.AvatarPlaceholderImageSize)
     }
 }
