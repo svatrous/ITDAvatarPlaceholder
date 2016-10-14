@@ -24,5 +24,5 @@ A color of the background is suitable for the flat UI and computed from a hash o
   }
 
   s.frameworks = 'UIKit'
-  s.dependency 'ChameleonFramework/Swift'
+  s.dependency 'ChameleonFramework'
 end

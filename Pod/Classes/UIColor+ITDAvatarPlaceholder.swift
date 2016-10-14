@@ -11,11 +11,11 @@ import ChameleonFramework
 
 extension UIColor {
     public static func forAvatarPlaceholderBackground(userFullName name: String) -> UIColor {
-        return fromInt(name.hashValue).flatten()
+        return fromInt(value: name.hashValue).flatten()
     }
     
     static func fromInt(value: Int) -> UIColor {
-        return UIColor.fromUInt(UInt(abs(value)))
+        return UIColor.fromUInt(value: UInt(abs(value)))
     }
     
     static func fromUInt(value: UInt) -> UIColor {
